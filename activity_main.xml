@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#22649E" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher"/>
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_light"/>
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="@android:color/holo_orange_light"/>
+
+
+</FrameLayout>
